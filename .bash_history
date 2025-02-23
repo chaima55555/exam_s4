@@ -170,3 +170,64 @@ git push -u origin master
 ls ~/.ssh/id_rsa.pub
 ssh-keygen -t rsa -b 4096 -C "chaimananah5@gmail.com"
 git push -u origin master
+cd exam_s4
+ansible webservers -m ping
+ping 192.168.247.128
+cd -
+cd /etc/ansible/
+sudo nano hosts
+ansible webservers -m ping
+ssh ubuntu@192.168.247.128
+ansible webservers -m ping
+ansible webservers -m ping -vvv
+sudo cat ostss
+sudo cat hosts
+ssh-keygen -t rsa
+ansible --version
+ansible webservers -m ping
+sudo touch apach.yaml
+apache2 --V
+sudo apt install apache2
+sudo nano apach.yaml
+ansible-playbook apach.yaml
+sudo nano hosts
+ansible-playbook apach.yaml
+sudo nano hosts
+ansible-playbook apach.yaml
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+ssh tache@192.168.247.128
+chmod 700 ~/.ssh
+ssh tache@192.168.247.128
+sudo systemctl restart ssh
+sudo tail -f /var/log/auth.log
+ansible-playbook apach.yaml
+git init
+git add .
+git status
+git --V
+git --version
+sudo nano apach.yaml
+ansible-playbook apach.yaml
+sudo nano apach.yaml
+ansible-playbook apach.yaml
+sudo nano apach.yaml
+git int
+git init
+cd -
+git init
+git add .
+git submodule add <url-du-depot> exam_s4
+git submodule add https://github.com/chaima55555/exam_s4.git exam_s4
+git rm --cached exam_s4
+git status
+git submodule add https://github.com/chaima55555/exam_s4.git
+git add ios_configs
+git commit -m "commit ansible"
+ls
+git add .
+git commit -m "commit ansible"
+git remote add origin https://github.com/chaima55555/exam_s4.git
+git push -u origin master
+git pull origin master
+git pull origin master --allow-unrelated-histories
